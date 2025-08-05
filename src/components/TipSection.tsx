@@ -5,7 +5,7 @@ type TTipSectionProps = {
   setTip: Dispatch<SetStateAction<number>>;
 };
 
-const TipSection = ({ tip, setTip } : TTipSectionProps) => {
+const TipSection = ({ setTip } : TTipSectionProps) => {
   return (
     <section className="w-full max-w-xl">
         <h2 className="text-xl font-semibold text-gray-700 mb-4">Selecciona la Propina</h2>
